@@ -105,6 +105,7 @@ nav > a:hover {
     flex-direction: column;
     justify-content: center;
     padding: 3rem;
+    
 }
 
 /* termine segunda sección */
@@ -189,6 +190,9 @@ nav > a:hover {
 
     .mitad {
         width: 50%;
+        animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
     }
 
     #cuarta-seccion-der > h3 {
