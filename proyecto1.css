@@ -321,6 +321,11 @@ footer {
     .img-tercera {
         margin-bottom: 2rem;
     }
+    .imagen-servidor{
+        margin-bottom: 1em;
+        padding: auto;
+        width: 200px;
+    }
 
     .img-tercera > img {
         max-width: 200px;
