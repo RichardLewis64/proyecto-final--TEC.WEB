@@ -45,6 +45,7 @@ body{
     margin: auto 5rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    font-size: 25px;
 }
 
 #logo {
@@ -75,7 +76,7 @@ nav > a:hover {
 #primera-seccion-contenido > p {
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 20px;
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
@@ -117,6 +118,7 @@ nav > a:hover {
         width: 80%;
         padding-top: 5rem;
         padding-bottom: 5rem;
+        font-size: 20px;
     }
 
     #titulo {
@@ -175,6 +177,7 @@ nav > a:hover {
         color: white;
         display: flex;
         flex-direction: column;
+        font-size: 15px;;
     }
 
     #contenedor {
@@ -191,7 +194,7 @@ nav > a:hover {
     #cuarta-seccion-der > h3 {
         text-transform: uppercase;
         font-family: 'Montserrat', sans-serif;
-        font-size: 2.5rem;
+        font-size: 2px;
         font-weight: 700;
         margin-bottom: 1.5rem;
     }
