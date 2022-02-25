@@ -9,7 +9,7 @@ body{
 
 .btn-rojo {
     text-decoration: none;
-    color: white;
+    color: rgb(47, 140, 177);
     font-size: 0.8rem;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -98,7 +98,7 @@ nav > a:hover {
 /* comienza segunda sección */
 
 #segunda-seccion{
-    background-color: #f4f5f9;
+    background-image: url(fondo.jpg);
     min-height: 10rem;
     display: flex;
     flex-direction: column;
@@ -169,7 +169,7 @@ nav > a:hover {
 /* comienza cuarta sección */
 
     #cuarta-seccion{
-        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(fondoo.jpg) no-repeat center/cover;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0,0.905)), url(GNU.jpg) no-repeat center/cover;
         background-attachment: fixed;
         height: 100vh;
         color: white;
@@ -269,6 +269,7 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 100%;
 }
 
 /* Termina Footer */
@@ -327,6 +328,14 @@ footer {
 
     */Cuarta Seccion
 
+    div.aside{
+       text-align: right;
+       padding-left: 5px;
+       padding-right: 2px;
+       margin-block-end: 150px;
+       width: 50px;
+    }
+
     #cuarta-seccion-izq {
         display: none;
     }
@@ -341,9 +350,10 @@ footer {
         margin: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         padding-top: 2rem;
         padding-bottom: 2rem;
+        text-align: left;
     }
 
     #quinta-seccion-derecha{
@@ -353,5 +363,7 @@ footer {
         grid-template-columns: 1fr;
         gap: 15px 10px;
         justify-items: center;
-        align-items: center;
+        align-items: left;
+        text-align: left;
+        padding-left: 5px;
     }}
