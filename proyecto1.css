@@ -358,9 +358,8 @@ footer {
         text-align: left;
     }
 
-    .drop{
+    .drop  img{
         width: 150px;
-        image-resolution: 150px;
         padding: auto;
     }
     #quinta-seccion-derecha{
