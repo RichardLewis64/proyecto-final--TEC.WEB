@@ -1,5 +1,5 @@
 body{
-   background-color: navy;
+   background-color: rgb(87, 87, 202);
     padding: 0;
     height: 100vh !important;
     font-family: 'Noto Sans', sans-serif;
@@ -133,7 +133,7 @@ nav > a:hover {
 
     #titulo > hr {
         width: 4.5rem;
-        border-color: #20fba7da;
+        border-color: #c5e0d6da;
     }
 
     #container-tercera-seccion{
