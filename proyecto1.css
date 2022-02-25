@@ -198,7 +198,7 @@ nav > a:hover {
 
     #cuarta-seccion-der > hr {
         width: 4.5rem;
-        border-color: #20fba7da;
+        border-color: #7fb6a1da;
         margin-left: 0;
         margin-bottom: 3rem;
     }
@@ -323,7 +323,7 @@ footer {
     }
 
     .img-tercera > img {
-        max-width: 100%;
+        max-width: 200px;
     }
 
     */Cuarta Seccion
@@ -334,6 +334,8 @@ footer {
        padding-right: 2px;
        margin-block-end: 150px;
        width: 50px;
+       padding: 200px;
+
     }
 
     #cuarta-seccion-izq {
@@ -356,6 +358,11 @@ footer {
         text-align: left;
     }
 
+    .drop{
+        width: 150px;
+        image-resolution: 150px;
+        padding: auto;
+    }
     #quinta-seccion-derecha{
         flex: 1;
         display: grid;
